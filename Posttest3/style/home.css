@@ -22,7 +22,7 @@ body {
     height: 90%;
     overflow: hidden;
     position: relative;
-    background-image: URL(../assets/pizza.jpg);
+    background-image: URL('../assets/pizza.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,19 +32,19 @@ body {
 
 @keyframes change{
     0%{
-        background-image: url(../assets/pizza.jpg);
+        background-image: url('../assets/pizza.jpg');
     }
     25%{
-        background-image: url(../assets/bali.jpg);
+        background-image: url('../assets/bali.jpg');
     }
     50%{
-        background-image: url(../assets/ramen.jpg);
+        background-image: url('../assets/ramen.jpg');
     }
     75%{
-        background-image: url(../assets/market.jpg);
+        background-image: url('../assets/market.jpg');
     }
     100%{
-        background-image: url(../assets/market.jpg);
+        background-image: url('../assets/market.jpg');
     }
 }
 
